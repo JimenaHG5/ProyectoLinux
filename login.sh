@@ -1,11 +1,9 @@
 #!/bin/bash
 clear
-rojo='\e[34m'
-reset='\033[0m'
-echo -e "        ${rojo}████████████████▀█████████████"
+echo -e "          \e[34m████████████████▀█████████████"
 echo -e "        █▄─▄███─▄▄─█─▄▄▄▄█▄─▄█▄─▀█▄─▄█ "
 echo -e "        ██─██▀█─██─█─██▄─██─███─█▄▀─██"
-echo -e "        ▀▄▄▄▄▄▀▄▄▄▄▀▄▄▄▄▄▀▄▄▄▀▄▄▄▀▀▄▄▀ ${reset}"
+echo -e "        ▀▄▄▄▄▄▀▄▄▄▄▀▄▄▄▄▄▀▄▄▄▀▄▄▄▀▀▄▄▀ \033[0m"
 echo "Por favor, ingrese su usuario para continuar"
 
 read -p "Usuario: " usuario
