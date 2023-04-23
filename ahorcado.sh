@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Lista de palabras
-palabras=("perro" "gato" "elefante" "jirafa" "cebra")
+palabras=("perro" "gato" "elefante" "jirafa" "cebra" "pájaro" "león" "tigre" "oso" "conejo" "ratón" "ballena" "delfín" "tiburón" "serpiente" "lagarto" "araña" "mosquito" "mariposa" "gusano" "caracol" "abeja" "avispa" "pingüino" "koala" "puma" "hipopótamo" "rinoceronte" "gorila" "mono" )
+
 
 # Seleccionar una palabra aleatoria
 palabra=${palabras[$RANDOM % ${#palabras[@]} ]}
@@ -31,7 +32,7 @@ function dibujar_ahorcado() {
        echo " _________     "
        echo " | /      |    "
        echo " |/       O    "
-       echo " |            "
+       echo " |        |    "
        echo " |          "   ;;
 
     2) 
